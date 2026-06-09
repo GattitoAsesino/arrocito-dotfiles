@@ -1,0 +1,48 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/gatito-asesino/.config/fastfetch/gatito_art.txt",
+        "color": {
+            "1": "black" // Cambiado a rojo para que resalte con máxima fuerza en tu fondo claro
+        },
+        "padding": {
+            "top": 1,
+            "left": 2
+        }
+    },
+    "display": {
+        "separator": " ⟡  ",
+        "color": {
+            "keys": "green",
+            "title": "red"
+        },
+        "key": {
+            "type": "icon"
+        }
+    },
+    "modules": [
+        "title",
+        "separator",
+        { "type": "os", "key": "🌱 OS" },
+        { "type": "host", "key": "💻 HST" },
+        { "type": "kernel", "key": "✨ KNL" },
+        { "type": "uptime", "key": "⏳ UPT" },
+        { "type": "packages", "key": "📦 PKG" },
+        { "type": "shell", "key": "🐚 SH" },
+        { "type": "display", "key": "🖥️ DSP" },
+        { "type": "de", "key": "🎨 DE" },
+        { "type": "wm", "key": "𖦹 WM" },
+        { "type": "cursor", "key": "🖱️ CUR" },
+        { "type": "terminal", "key": "🐾 TRM" },
+        { "type": "terminalfont", "key": "🔤 FNT" },
+        { "type": "cpu", "key": "🧠 CPU" },
+        { "type": "gpu", "key": "🎮 GPU" },
+        { "type": "memory", "key": "🌸 MEM" },
+        { "type": "swap", "key": "🔄 SWP" },
+        { "type": "disk", "key": "💾 DSK" },
+        { "type": "localip", "key": "🌐 IP" },
+        { "type": "locale", "key": "🗺️ LCL" },
+        "break",
+        "colors"
+    ]
+}

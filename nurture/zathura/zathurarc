@@ -1,0 +1,11 @@
+# =========================================================
+# ZATHURA CONFIGURATION - VIBE NURTURE (Soft Light/Green)
+# =========================================================
+
+# Ajustes de interfaz básicos
+set sandbox none
+set statusbar-home-tilde true
+set window-title-basename true
+set selection-clipboard clipboard
+
+include catppuccin-latte

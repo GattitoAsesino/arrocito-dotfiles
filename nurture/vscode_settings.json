@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.iconTheme": "catppuccin-latte",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace'",
+    "editor.fontSize": 13,
+    "window.menuBarVisibility": "toggle"
+}
+
